@@ -1,0 +1,5 @@
+radius=int(input())
+a=3.14*(radius**2)
+print(f"Area of the circle:{a}" )
+print(f"Area of the circle:" ,a)
+print(f"Area of the circle:",a,sep="" )
