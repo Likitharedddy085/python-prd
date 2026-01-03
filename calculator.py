@@ -7,5 +7,7 @@ elif operator=='-':
     print(f"subtraction of 2 numbers is {num1-num2}")
 elif operator=='*':
     print(f"Multiplication of 2 numbers is {num1*num2}")
-else:
+elif operator=='/':
     print(f"Division of 2 numbers is {num1/num2}")
+else:
+    print("Invalid operator")
